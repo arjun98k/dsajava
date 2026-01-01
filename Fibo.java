@@ -17,7 +17,7 @@ class Fibo {
     }
 
     public static void main(String[] args) {
-     Fibo.fibonacci(10);
+     Fibo.fibonacci(9);
     
 
     }
