@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 class ReverseString {
 
      static String reverseString(String str){
@@ -9,6 +12,10 @@ class ReverseString {
         return  reverse;
      }
     public static void main(String[] args) {
-         System.out.println(reverseString("Arjun"));
+       Scanner sc = new Scanner(System.in);
+       System.out.println("enter to reverse String");
+       String input = sc.nextLine();
+      System.out.println("reverse String " + reverseString(input));
+      
     }
 }
