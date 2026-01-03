@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 class Fibo {
 
@@ -18,6 +17,8 @@ class Fibo {
 
     public static void main(String[] args) {
      Fibo.fibonacci(9);
+    System.out.println("hello");
+      
     
 
     }
