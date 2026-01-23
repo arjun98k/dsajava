@@ -1,4 +1,14 @@
 public class SecondLargest {
+
+    // While traversing the array:
+
+// If current number > largest
+// → secondLargest = largest
+// → largest = current number
+
+// Else if current number > secondLargest AND current number != largest
+// → secondLargest = current number
+
     public int secondlargest(int []arr){
         if (arr.length <2) {
             throw new IllegalArgumentException("Array must have at least 2 elements");
@@ -25,3 +35,5 @@ public class SecondLargest {
         System.out.println("Second Largest = " + result);
     }
 }
+
+
