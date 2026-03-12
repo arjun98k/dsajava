@@ -15,18 +15,26 @@ public class PrimeNumberr {
             } 
             
         } return true;
+    
     }
+       static boolean buildString(String string){
+    String result = new StringBuilder(string).reverse().toString();
+    return string.equals(result);
+   }
 
     public static void main(String[] args) {
         Scanner obj = new Scanner(System.in);
-        System.out.println("enter the number you want to ");
-        int input = obj.nextInt();
-        if (primeNumber(input) ) {
-             System.out.println("it is prime number");
-        } else {
-            System.out.println("it not prime number");
-        }
+        System.out.println("enter the value you want to ");
+        String input = obj.next();
+        // if (primeNumber(input) ) {
+        //      System.out.println("it is prime number");
+        // } else {
+        //     System.out.println("it not prime number");
+        // }
+
+        System.out.println("this answer " + buildString(input));
     }
+
         }
         
         
